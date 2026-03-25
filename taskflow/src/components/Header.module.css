@@ -1,49 +1,49 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 56px;
-  background-color: #1B8C3E;
-  color: white;
-  padding: 0 16px;
-}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background-color: #1B8C3E;
+    color: white;
+    padding: 0 16px;
+  }
 
-.left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
 
-.menuBtn {
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 22px;
-  cursor: pointer;
-}
+  .menuBtn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
 
-.menuBtn:hover {
-  opacity: 0.8;
-}
+  .menuBtn:hover {
+    opacity: 0.8;
+  }
 
-.logo {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-}
+  .logo {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
 
-.avatar {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-weight: 500;
-  cursor: pointer;
-}
+  .avatar {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
 
- 
-.right { display: flex; align-items: center; gap: 1rem; } 
-.userName { font-size: 0.9rem; opacity: 0.9; } 
-.logoutBtn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); 
-  color: white; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; 
-  font-size: 0.85rem; transition: background 0.2s; } 
-.logoutBtn:hover { background: rgba(255,255,255,0.25); } 
+  
+  .right { display: flex; align-items: center; gap: 1rem; } 
+  .userName { font-size: 0.9rem; opacity: 0.9; } 
+  .logoutBtn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); 
+    color: white; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; 
+    font-size: 0.85rem; transition: background 0.2s; } 
+  .logoutBtn:hover { background: rgba(255,255,255,0.25); } 
