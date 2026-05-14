@@ -14,6 +14,7 @@ export default function ProjectForm({
     const [name, setName] = useState(initialName);
     const [color, setColor] = useState(initialColor);
     function handleSubmit(e: React.FormEvent) {
+        console.log("Submitting project form")
         onSubmit(name, color); //BUG
     }
     return (
